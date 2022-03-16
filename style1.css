@@ -1,0 +1,53 @@
+body{
+    background: #fff;
+}
+.cart{
+	margin: 100px 0;
+	background-color: #F6F5FA;;
+	padding: 50px 0;
+}
+.cart-item{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.cart-item img{
+    width: 115px;
+}
+
+.cart-item h5{
+    padding: 0 45px;
+}
+
+.center-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.center-item .remove-img{
+    width: 25px;
+}
+.input-group{
+    width: unset;
+}
+.center-item .form-control{
+    background-color: #F6F5FA;
+    border: none;
+    width: 65px;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 15px;
+}
+.status{
+    text-align: right;
+}
+.check-btn{
+    float: right;
+    border: none;
+    font-size: 19px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #2FBE70;
+}
